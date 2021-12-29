@@ -1,0 +1,20 @@
+/*==============================================================================
+ *
+ * WIFI CONFIGURATION
+ *
+ *============================================================================*/
+
+#ifndef WIFI_CONFIG
+
+#define WIFI_CONFIG
+
+// replace this with your wireless network SSID
+char ssid[] = "your_network_name";
+
+#define SERVER_PORT 3030
+
+//  set your wpa_passphrase value appropriately
+char wpa_passphrase[] = "your_wpa_passphrase";
+
+#endif  //WIFI_CONFIG
+
